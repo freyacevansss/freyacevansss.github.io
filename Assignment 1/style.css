@@ -1,0 +1,26 @@
+h1 {
+  font-family: fantasy;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: fantasy;
+  font-weight: 5;
+  font-size: medium;
+}
+
+h3 {
+  font-family: fantasy;
+  font-weight: 5;
+  font-size: medium;
+  background-color: #6495ed;
+}
+
+P {
+  background-color: #f4f8fa;
+}
+
+div {
+  text-align: center;
+  background-color: #6495ed;
+}
