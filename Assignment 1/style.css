@@ -13,14 +13,17 @@ h3 {
   font-family: fantasy;
   font-weight: 5;
   font-size: medium;
-  background-color: #6495ed;
-}
-
-P {
-  background-color: #f4f8fa;
 }
 
 div {
   text-align: center;
-  background-color: #6495ed;
+  background: rgb(244, 62, 21);
+  background: linear-gradient(
+    90deg,
+    rgba(244, 62, 21, 1) 0%,
+    rgba(240, 186, 110, 1) 35%,
+    rgba(248, 133, 89, 1) 73%,
+    rgba(250, 118, 10, 1) 91%,
+    rgba(255, 132, 0, 1) 100%
+  );
 }
