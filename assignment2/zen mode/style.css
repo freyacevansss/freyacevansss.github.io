@@ -97,6 +97,7 @@ nav a {
 .btn {
   background-color: rgb(139, 5, 5);
   border: #6b0303;
+  border-radius: 3px;
 }
 
 .progress-bar {

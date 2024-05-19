@@ -55,3 +55,24 @@ function updateTime() {
     return ("0" + unit).length > 2 ? unit : "0" + unit;
   }
 }
+
+const ambientSound = document.querySelector("#ambient-sound");
+console.log(ambientSound);
+
+const playPauseButton = document.querySelector("#play-pause-button");
+console.log(playPauseButton);
+
+const playPauseImg = document.querySelector("#play-pause-img");
+console.log(playPauseButton);
+
+playPauseButton.addEventListener("click", playAmbientsound);
+
+function playAmbientsound() {
+  if (ambientSound.paused || ambientSound.ended) {
+    playPauseImg.src = "https://img.icons8.com/ios-glyphs/30/pause--v2.png";
+    ambientSound.play();
+  } else {
+    playPauseImg.src = "https://img.icons8.com/ios-glyphs/30/play--v2.png";
+    ambientSound.pause();
+  }
+}
