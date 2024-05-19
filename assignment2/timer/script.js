@@ -69,10 +69,10 @@ playPauseButton.addEventListener("click", playAmbientsound);
 
 function playAmbientsound() {
   if (ambientSound.paused || ambientSound.ended) {
-    playPauseImg.src = "https://img.icons8.com/ios-glyphs/30/pause--v2.png";
+    playPauseImg.src = "play.png";
     ambientSound.play();
   } else {
-    playPauseImg.src = "https://img.icons8.com/ios-glyphs/30/play--v2.png";
+    playPauseImg.src = "pause.png";
     ambientSound.pause();
   }
 }

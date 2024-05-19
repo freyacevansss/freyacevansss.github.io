@@ -3,6 +3,33 @@
 body {
   background-color: rgb(231, 182, 176);
   background-size: cover;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  margin-top: 0px;
+  text-align: center;
+  cursor: pointer;
+  font-family: fantasy;
+  color: crimson;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
 }
 .timerBtn {
   width: 200px;
@@ -45,8 +72,8 @@ body {
   font-family: fantasy;
   cursor: pointer;
 
-  position: absolute;
-  right: 42%;
+  display: block;
+  margin: auto;
 
   width: 200px;
   height: 100px;
@@ -56,4 +83,16 @@ body {
 
 audio::-webkit-media-controls {
   display: none;
+}
+
+/* Footer styling */
+footer {
+  background-color: crimson;
+  color: var(--main-text-color);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: auto;
+  font-family: fantasy;
+  color: aliceblue;
 }
