@@ -1,0 +1,38 @@
+/* utilised styling from Youtube Channel 'Bro Code', I altered aspects including selection of font, size and colour to apply my own aesthetic to the page */
+/* -------------------------------------------------- */
+body {
+  background-color: rgb(231, 182, 176);
+  background-size: cover;
+}
+.timerBtn {
+  width: 200px;
+  height: 100px;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: crimson;
+  color: rgb(249, 246, 246);
+  cursor: pointer;
+  font-family: fantasy;
+  font-size: 50px;
+}
+
+#timeDisplay {
+  font-size: 200px;
+  color: crimson;
+  font-family: consolas, monospace;
+}
+
+#containerTimer {
+  text-align: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: rgb(231, 182, 176);
+  border-color: rgb(231, 182, 176);
+}
+/* ----------------------------------------------- */
+#heading {
+  text-align: center;
+  color: crimson;
+  font-family: fantasy;
+  font-size: 80px;
+}
