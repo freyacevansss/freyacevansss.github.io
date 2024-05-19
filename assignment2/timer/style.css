@@ -36,3 +36,24 @@ body {
   font-family: fantasy;
   font-size: 80px;
 }
+
+.playpausebutton {
+  background-color: crimson;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: rgb(250, 249, 249);
+  font-family: fantasy;
+  cursor: pointer;
+
+  position: absolute;
+  right: 42%;
+
+  width: 200px;
+  height: 100px;
+
+  color: aliceblue;
+}
+
+audio::-webkit-media-controls {
+  display: none;
+}

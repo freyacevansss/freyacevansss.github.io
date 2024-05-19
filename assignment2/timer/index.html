@@ -8,24 +8,39 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-    
   </head>
   <body>
-
     <h1 id="heading">TRACK YOUR STUDY SESSION TODAY!</h1>
-    
+
     <div id="containerTimer">
-      <div id="timeDisplay"> 00:00:00</div>
+      <div id="timeDisplay">00:00:00</div>
       <button id="startBtn" class="timerBtn">START</button>
       <button id="pauseBtn" class="timerBtn">PAUSE</button>
       <button id="resetBtn" class="timerBtn">RESET</button>
     </div>
 
- 
-   
-  
-  
+    <audio src="Ambient Sound.mp3" controls loop id="ambient-sound"></audio>
+    <br />
+    <br />
+    <button id="play-pause-button" class="playpausebutton">
+      <span
+        ><p>AMBIENT SOUND</p>
+        <img
+          id="play-pause-img"
+          src="play.png"
+          alt="Play Button"
+          width="40"
+          height="40"
+      /></span>
     </button>
 
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Media Player Website. All rights reserved.</p>
+      <a href="icons8-play-button-30">Play</a> icon by
+      <a href="https://icons8.com">Icons8</a>
+      <a href="icons8-pause-button-30">Pause</a> icon by
+      <a href="https://icons8.com">Icons8</a>
+    </footer>
   </body>
 </html>
