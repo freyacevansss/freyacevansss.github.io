@@ -25,7 +25,7 @@ muteUnmuteButton.addEventListener("click", toggleSound);
 
 function toggleSound() {
   if (myVideo.muted) {
-    muteUnmuteButton.stylle.backgroundColor = "blue";
+    muteUnmuteButton.style.backgroundColor = "blue";
     myVideo.muted = false;
   } else {
     muteUnmuteButton.style.backgroundColor = "red";

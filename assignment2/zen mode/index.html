@@ -11,11 +11,13 @@
 
 </head>
 <body>
+
+<!-- added in a heading to introduce which study session they chose -->
     <header>
       <h1>WELCOME TO YOUR ZEN MODE STUDY SESSION</h1>
     </header>
 
-    <!-- Navigation Section -->
+<!-- Navigation Section -->
     <nav>
       <ul>
         
@@ -25,23 +27,24 @@
       </ul>
     </nav>
 
-    <!-- Main Content Section -->
+<!-- Main Content Section -->
+
     <main class="container">
-      <!-- Media Player Section -->
-    
-     
-            <!-- Here I made the video loop so that the user can have the visuals continuously play in the background as they study -->
-            <div class="media-player">
-            <video id="fractal-art" video controls loop>
-                
+
+<!-- Media Player Section -->     
+
+<!-- Here I made the video loop so that the user can have the visuals continuously play in the background as they study -->
+           
+        <div class="media-player">
+            <video id="fractal-art" loop>   
             <source
             src="Fractal Art.mp4"
             type="video/mp4"
           />
         </video>
 
-        
-          <button class="btn" id="play-pause-btn" onclick="togglePlayPause()">
+<!-- here is the code for the play-pause button for the media player -->
+          <button class="btn" id="play-pause-btn" >
             <img
               id="play-pause-img"
               src="https://img.icons8.com/ios-glyphs/30/play--v1.png"
@@ -50,22 +53,33 @@
               height="24"
             />
           </button>
-          <!-- add the missing buttons or functionality here -->
-          <div class="progress-bar">
-            <span id="progress-bar-fill"></span>
+        
+        
+<!-- here is the code used for the mute button -->
+          <button class="btn" id="mute-unmute-btn" > 
+            <img
+              id="mute-unmute-img"
+              src="https://img.icons8.com/ios-glyphs/30/no-audio--v1.png"
+              alt="Mute Button"
+              width="24"
+              height="24"
+            />
+          </button>
           </div>
-        </div>
+        
       </div>
 
      
      
 
-    <!-- Footer Section -->
+    <!-- Footer Section with the additional icons added that I utilised, adding in play/pause, fullscreen and mute/unmute all from Icons8-->
     <footer>
       <p>&copy; 2024 Media Player Website. All rights reserved.</p>
       <a href="icons8-play-button-30">Play</a> icon by
       <a href="https://icons8.com">Icons8</a>
       <a href="icons8-pause-button-30">Pause</a> icon by
+      <a href="https://icons8.com">Icons8</a>
+      <a href="https://img.icons8.com/ios-glyphs/30/full-screen--v1.png">Full Screen</a> icon by
       <a href="https://icons8.com">Icons8</a>
     </footer> 
 </body>
