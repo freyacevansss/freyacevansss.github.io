@@ -1,3 +1,4 @@
+/* root styling including text font to create a cohesive style throughout each page  */
 :root {
   --primary-bg-color: rgb(231, 182, 176);
   --text-color: rgb(200, 20, 60);
@@ -6,6 +7,7 @@
   --main-btn-bg-color: #938989;
 }
 
+/* body and heading styling  */
 body,
 h1,
 p,
@@ -26,9 +28,7 @@ body {
   justify-content: space-between;
 }
 
-/* Add additional styles as needed */
-
-/* Create a container for the main content */
+/* container styling */
 .container {
   max-width: 1000px;
   width: 100%;
@@ -95,27 +95,18 @@ nav a {
   display: flex;
   align-items: center;
 }
-
+/* play/pause button and mute/unmute button styling */
 .btn {
   background-color: rgb(200, 20, 60);
   border: #6b0303;
   border-radius: 3px;
 }
 
-.progress-bar {
-  width: 100%;
-  height: 10px;
-  background-color: #ddd;
-  margin-top: 10px;
-  overflow: hidden;
-}
-
-.progress-bar span {
-  display: block;
-  height: 100%;
-  background-color: var(--main-bg-color);
-  width: 0;
-  transition: width 0.3s ease;
+/* fullscreen styling */
+.full {
+  background-color: crimson;
+  padding: 10px;
+  font-family: fantasy;
 }
 
 /* Footer styling */
