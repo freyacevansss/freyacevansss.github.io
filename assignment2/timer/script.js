@@ -1,3 +1,6 @@
+// Utilised 'Bro Code' video: https://www.youtube.com/watch?v=8Nsb9cjmOVA as a guide to
+// follow for java script, applying it to my own alterations.
+
 const timeDisplay = document.querySelector("#timeDisplay");
 const startBtn = document.querySelector("#startBtn");
 const pauseBtn = document.querySelector("#pauseBtn");
@@ -56,6 +59,7 @@ function updateTime() {
   }
 }
 
+// Play/Pause section for the ambient sound
 const ambientSound = document.querySelector("#ambient-sound");
 console.log(ambientSound);
 

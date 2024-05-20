@@ -10,9 +10,24 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <!-- this is the introductory heading for the timer -->
     <h1 id="heading">TRACK YOUR STUDY SESSION TODAY!</h1>
 
-    <!-- I was able to use formulate this code using a tutorial from 'Bro Code', I felt a stopwatch/timer would be appropriate to utilise for the study/relaxation through research. I found that a timer can help a student study in numerous ways. It can assist in creating a sense of urgency to counteract procrastination which additionally helps prevent burnout through promoting regular breaks.  -->
+    <!-- I was able to use formulate this code using a tutorial from 'Bro Code': https://www.youtube.com/watch?v=8Nsb9cjmOVA, 
+    I felt a stopwatch/timer would be appropriate to utilise for the study/relaxation
+    through research. I found that a timer can help a student study in numerous ways. 
+    It can assist in creating a sense of urgency to counteract procrastination which 
+    additionally helps prevent burnout through promoting regular breaks. I found that 
+    the timer can help the user establish a routine, building discipline and creating 
+    productive study habits. A timer can help the user keep track of their study sessions
+    and help break them into to more manageable increments. The timer can reduce stress 
+    that can be caused by larger tasks, making it easier for the user to just start. 
+    Overall, the study timer implements structure, motivation, efficiency and productivity. -->
+
+    <!-- Here is the section for the buttons start/pause/reset on the timer, this gives 
+  the user the opportunity to pause their timer if they have a break, and continue the
+  timer once they resume, they also have the option to rest, if they want to restart 
+  their study session. -->
     <div id="containerTimer">
       <div id="timeDisplay">00:00:00</div>
       <button id="startBtn" class="timerBtn">START</button>
@@ -21,6 +36,10 @@
     </div>
     <!------------------------------------------------------------------->
 
+    <!-- Here is the ambient sound button section, I included this so that the user has an option 
+    to additionally listen to ambient noise as they study, with the option to play/pause the audio 
+    if they wish. I gave the user this option as some will study better with sound, and others will 
+    prefer silence -->
     <audio src="Ambient Sound.mp3" controls loop id="ambient-sound"></audio>
     <br />
     <br />
@@ -36,6 +55,8 @@
       /></span>
     </button>
 
+    <!-- here is the button section that allows the user to go back to the home page 
+    or go to the zen mode study session if they prefer -->
     <nav>
       <ul>
         <li><a href="../home page/index.html">HOME PAGE</a></li>
@@ -43,7 +64,8 @@
       </ul>
     </nav>
 
-    <!-- Footer Section - I only included the icons sourced from incons 8 that were included-->
+    <!-- Footer Section - I only included the icons sourced from icons8 that were 
+    included on this specific page-->
     <footer>
       <p>&copy; 2024 Media Player Website. All rights reserved.</p>
       <a href="icons8-play-button-30">Play</a> icon by

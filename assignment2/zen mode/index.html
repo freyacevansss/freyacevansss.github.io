@@ -17,7 +17,8 @@
       <h1>WELCOME TO YOUR ZEN MODE STUDY SESSION</h1>
     </header>
 
-<!-- Navigation Section -->
+<!-- Navigation Section - this allows the user to go back to the 'home page'
+or take them to the other study mode 'timer study session'. -->
     <nav>
       <ul>
         
@@ -33,7 +34,12 @@
 
 <!-- Media Player Section -->     
 
-<!-- Here I made the video loop so that the user can have the visuals continuously play in the background as they study -->
+<!-- Here I made the video loop so that the user can have the visuals continuously 
+     play in the background as they study. I used my own art for the video: 
+     Infinite Tranquil (2023) Freya Evans. I decided to use my own fractal art visuals
+     as fractal art is something that can be quite visually pleasing, but I find it's 
+     not too distracting for the user. Paired with Brian Eno's soundtrack it created a 
+     calming space-->
            
         <div class="media-player">
             <video id="fractal-art" loop>   
@@ -43,7 +49,8 @@
           />
         </video>
 
-<!-- here is the html code for the play-pause button for the media player -->
+<!-- here is the html code for the play-pause button for the media player. This allows
+the user to pause/play the video, based on their preference for studying-->
           <button class="btn" id="play-pause-btn" >
             <img
               id="play-pause-img"
@@ -55,7 +62,9 @@
           </button>
         
         
-<!-- here is the html code used for the mute/unmute button -->
+<!-- here is the html code used for the mute/unmute button, this alows the user to mute
+the audio if it is too distracting, but they can additionally turn it back on if they 
+decide to do so. -->
           <button class="btn" id="mute-unmute-btn" > 
             <img
               id="mute-unmute-img"
@@ -66,7 +75,9 @@
             />
           </button>
 
-<!-- here is the html code used for the full screen button - I created a button with text so that the user can easily know what to do to enter full screen -->
+<!-- here is the html code used for the full screen button - I created a button with 
+text so that the user can easily know what to do to enter full screen. This allows the
+user to study in fullscreen if they prefer. -->
           <button class="full" id="full-screen-btn" > PRESS ENTER FOR FULL SCREEN
   
           </button>

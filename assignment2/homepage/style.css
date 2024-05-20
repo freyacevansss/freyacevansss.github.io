@@ -1,3 +1,7 @@
+/* I opted for simple, clear, but visually pleasing styling 
+with cohesive colour pallete and font throughout  */
+
+/* styling for heading  */
 body {
   font-family: fantasy;
   color: crimson;
@@ -6,7 +10,7 @@ body {
   font-size: 40px;
 }
 
-/* styling for heading  */
+/* styling for button  */
 h2 {
   color: crimson;
 }
@@ -21,6 +25,7 @@ button {
   font-family: fantasy;
   font-size: 16px;
 
+  /* here i changed the colour of the link so that it wasn't hyperlinked as blue  */
   a:link {
     color: rgb(246, 244, 244);
   }
