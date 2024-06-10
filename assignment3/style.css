@@ -13,6 +13,10 @@ h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* style for balto */
 .main-container {
   width: 600px;
@@ -21,7 +25,11 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
   border-bottom: 3px solid rgb(255, 180, 244);
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
+
 .video-container {
   position: relative;
 }
@@ -43,6 +51,7 @@ h2 {
   opacity: 0;
   letter-spacing: 0.8px;
   transition: all 400ms ease;
+  font-family: fantasy;
 }
 
 .video-container .hover-text.active {
@@ -60,7 +69,11 @@ h2 {
   border-radius: 10px;
   overflow: hidden;
   border-bottom: 3px solid rgb(255, 180, 244);
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
+
 .video-container-2 {
   position: relative;
 }
@@ -82,6 +95,7 @@ h2 {
   opacity: 0;
   letter-spacing: 0.8px;
   transition: all 400ms ease;
+  font-family: fantasy;
 }
 
 .video-container-2 .hover-text-2.active {
@@ -90,23 +104,174 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
-/* style for button  */
-button {
-  width: 200px;
-  height: 100px;
-  border: 5px solid;
-  border-radius: 50px;
-  background-color: rgb(255, 180, 244);
-  color: rgb(249, 246, 246);
-  cursor: pointer;
-  font-family: fantasy;
-  font-size: 16px;
+/* style for  nessie  */
+.main-container-3 {
+  width: 600px;
+  margin: 40px auto;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom: 3px solid rgb(255, 180, 244);
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+.video-container-3 {
+  position: relative;
+}
+.video-container-3 video {
+  width: 100%;
+}
 
-  /* here i changed the colour of the link so that it wasn't hyperlinked as blue  */
-  a:link {
-    color: rgb(240, 62, 214);
-  }
-  a:hover {
-    color: rgb(249, 246, 248);
-  }
+.video-container-3 .hover-text-3 {
+  position: inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% - 24px)-50%, -50%);
+  background: rgb(255, 180, 244);
+  color: rgb(240, 62, 214);
+  padding: 8px 16px;
+  border-radius: 8px;
+  pointer-events: none;
+  box-shadow: 4px 4px 50px -4px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  letter-spacing: 0.8px;
+  transition: all 400ms ease;
+  font-family: fantasy;
+}
+
+.video-container-3 .hover-text-3.active {
+  opacity: 1;
+  letter-spacing: 0;
+  transform: translate(-50%, -50%);
+}
+
+/* style for kippy  */
+
+.main-container-4 {
+  width: 600px;
+  margin: 40px auto;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom: 3px solid rgb(255, 180, 244);
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+.video-container-4 {
+  position: relative;
+}
+.video-container-4 video {
+  width: 100%;
+}
+
+.video-container-4 .hover-text-4 {
+  position: inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% - 24px)-50%, -50%);
+  background: rgb(255, 180, 244);
+  color: rgb(240, 62, 214);
+  padding: 8px 16px;
+  border-radius: 8px;
+  pointer-events: none;
+  box-shadow: 4px 4px 50px -4px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  letter-spacing: 0.8px;
+  transition: all 400ms ease;
+  font-family: fantasy;
+}
+
+.video-container-4 .hover-text-4.active {
+  opacity: 1;
+  letter-spacing: 0;
+  transform: translate(-50%, -50%);
+}
+
+/* style for meeko  */
+
+.main-container-5 {
+  width: 600px;
+  margin: 40px auto;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom: 3px solid rgb(255, 180, 244);
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.video-container-5 {
+  position: relative;
+}
+.video-container-5 video {
+  width: 100%;
+}
+
+.video-container-5 .hover-text-5 {
+  position: inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% - 24px)-50%, -50%);
+  background: rgb(255, 180, 244);
+  color: rgb(240, 62, 214);
+  padding: 8px 16px;
+  border-radius: 8px;
+  pointer-events: none;
+  box-shadow: 4px 4px 50px -4px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  letter-spacing: 0.8px;
+  transition: all 400ms ease;
+  font-family: fantasy;
+}
+
+.video-container-5 .hover-text-5.active {
+  opacity: 1;
+  letter-spacing: 0;
+  transform: translate(-50%, -50%);
+}
+
+/* style for fluffy  */
+
+.main-container-6 {
+  width: 600px;
+  margin: 40px auto;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  overflow: hidden;
+  border-bottom: 3px solid rgb(255, 180, 244);
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.video-container-6 {
+  position: relative;
+}
+.video-container-6 video {
+  width: 100%;
+}
+
+.video-container-6 .hover-text-6 {
+  position: inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(calc(-50% - 24px)-50%, -50%);
+  background: rgb(255, 180, 244);
+  color: rgb(240, 62, 214);
+  padding: 8px 16px;
+  border-radius: 8px;
+  pointer-events: none;
+  box-shadow: 4px 4px 50px -4px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  letter-spacing: 0.8px;
+  transition: all 400ms ease;
+  font-family: fantasy;
+}
+
+.video-container-6 .hover-text-6.active {
+  opacity: 1;
+  letter-spacing: 0;
+  transform: translate(-50%, -50%);
 }
