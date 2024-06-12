@@ -7,51 +7,97 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-  </head>
-  <body>
-heading and introductory paragraph introduing the website and its functions. started off with a bold and concise heading so immediately the fuction of the site is made known
+
+
+<!-- Heading and introductory paragraph introduing the website and its functions. 
+I started off with a bold and concise heading so immediately the fuction of the site
+is made known (adopt a pet today). Then I went in to more detail so that the user 
+additionally knows how to interact with the site. -->
+
     <h1>ADOPT A PET TODAY!</h1>
     <h2>WELCOME TO PAWS & FRIENDS, A PET ADOPTION SITE WHERE EACH PET'S PROFILE REVEALS AN ENDEARING PERSONALITY TRAIT WHEN YOU HOVER, HELPING YOU FIND THE MOST COMPATIBLE FURRY FRIEND FOR YOUR HOME!</h2>
     
-    
-    <div class="main-container">
-      <div class="video-container">
-        <video src="Fractal Art.mp4"></video>
-        <div class="hover-text active">THIS IS BALTO</div>
-      </div>
+<!-- Here are my containers for each pet, I used this youtube tutorial to guide my html process:
+https://www.youtube.com/watch?v=NVy2TO4yL8A "How To Play Video On Hover Using HTML, CSS & JavaScript"-->
 
+
+<!-- section for balto, ensured video additionally looped -->
+ <div class="main-container">
+      <div class="video-container">
+        <video src="dog with stick.mp4" loop></video>
+        <div class="hover-text active">THIS IS BALTO</div>
+    </div>
+    <p>Balto is an 8 year old, Male German Shephard, who adores adventure and fun, make him the next addition to your household!</p>
+</div>
+
+
+<!-- section for cooper, ensured video additionally looped -->
     <div class="main-container-2">
         <div class="video-container-2">
-          <video class="video-2" src="Fractal Art.mp4"></video>
+          <video class="video-2" src="gentle cat.mp4"></video>
           <div class="hover-text-2 active">THIS IS COOPER</div>
         </div>
-      
+        <p>Cooper is a 12 year old, Female Tabby orange cat, who has a gentle and sweet nature about her, she's ready to be loved in your home! </p>
+    </div>
+
+
+    <!-- section for nessie, ensured video additionally looped -->
     <div class="main-container-3">
+        
             <div class="video-container-3">
-              <video class="video-3" src="Fractal Art.mp4"></video>
+              <video class="video-3" src="gentle bunny.mp4"></video>
               <div class="hover-text-3 active">THIS IS NESSIE</div>
             </div>
+            <p>Nessie is a 3 month old, Female, bunny, who's curious but quite & sweet-tempered, she'll blend seamlessly into your household!</p>
+        </div>
 
+<!-- section for kippy, ensured video additionally looped -->
     <div class="main-container-4">
             <div class="video-container-4">
-                <video class="video-4" src="Fractal Art.mp4"></video>
+                <video class="video-4" src="good with kids bunny.mp4"></video>
                 <div class="hover-text-4 active">THIS IS KIPPY</div>
             </div>
+            <p>Kippy is a 1 year old Male, a very gentle bunny who is great with kids, would fit right in with your family!</p>
+        </div>
 
+<!-- section for meeko, ensured video additionally looped -->
     <div class="main-container-5">
             <div class="video-container-5">
-                <video class="video-5" src="Fractal Art.mp4"></video>
+                <video class="video-5" src="plaaying fetch.mp4"></video>
                 <div class="hover-text-5 active">THIS IS MEEKO</div>
             </div>
+            <p>Meeko is a 4 year old, Female, Dalmation, loves to play fetch, she'll be a perfect fit for your active home! </p>
+</div>
 
+<!-- section for fluffy, ensured video additionally looped -->
     <div class="main-container-6">
             <div class="video-container-6">
-                <video class="video-6" src="Fractal Art.mp4"></video>
+                <video class="video-6" src="funny cat.mp4" loop></video> 
                 <div class="hover-text-6 active">THIS IS FLUFFY</div>
             </div>
+            <p>Fluffy is 6 years old, Male, Australian Mist, has a quirky demeanor and will no doubt will make you chuckle!</p>
+        </div>
 
 
-    <button><a href="../timer/index.html">ADOPT BALTO</a></button>
+<!-- used W3School tutorial: https://www.w3schools.com/howto/howto_css_newsletter.asp 
+"How TO - Email Newsletter" to guide me in creating a section for 
+users to put in email to enquire about any of the pets up for adoption-->
    
+<form action="action_page.php">
+    <div class="container">
+      <h3>TO ENQUIRE ABOUT ANY OF OUR PETS, SEND US AN EMAIL!</h3>
+      
+    </div>
+  
+    <div class="container" style="background-color:rgb(255, 180, 244)">
+      <input type="text" placeholder="NAME" name="NAME" required>
+      <input type="text" placeholder="EMAIL ADDRESS" name="mail" required>
+      
+    </div>
+  
+    <div class="container">
+      <input type="submit" value="ENQUIRE">
+    </div>
+  </form>
   </body>
 </html>
