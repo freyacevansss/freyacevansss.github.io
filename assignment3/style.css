@@ -24,6 +24,7 @@ h3 {
 }
 p {
   font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* styling for email box - I opted for a seamless colour palette that matched the rest of the site*/
@@ -48,6 +49,11 @@ input {
   border-radius: 10px;
   overflow: hidden;
   border-bottom: 3px solid rgb(255, 180, 244);
+
+  /* float, width and padding was implimented with 'How TO - Align Images Side By Side' 
+tutorial: https://www.w3schools.com/howto/howto_css_images_side_by_side.asp to guide 
+me in creating a partial componenet of the layout */
+
   float: left;
   width: 33.33%;
   padding: 5px;
